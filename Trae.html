@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="这是我的个人网站，展示我的技能、项目和学习经历">
+    <meta name="keywords" content="前端开发,HTML,CSS,个人网站,技能展示">
+    <meta name="author" content="隆璨萱">
+    <title>我的个人网站 - 前端开发者</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">我的网站</h1>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#experience">经历</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 首页 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>你好，我是隆璨萱</h2>
+                <p>欢迎来到我的个人网站</p>
+                <a href="#about" class="btn">了解更多</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是一名热爱前端开发的学习者，目前正在学习HTML和CSS。我喜欢创建清新、简洁、用户友好的网站。</p>
+                    <p>我相信良好的设计应该是直观的，能够让用户轻松找到他们需要的信息。我正在不断学习和提高我的技能，希望能够成为一名优秀的前端开发者。</p>
+                </div>
+                <div class="about-img">
+                    <img src="image.png" alt="个人头像" class="avatar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">我的技能</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>前端开发</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h4>HTML5</h4>
+                            <span class="skill-level">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress html"></div>
+                        </div>
+                        <p class="skill-desc">熟练掌握HTML5语义化标签，能够编写结构清晰、易于维护的HTML代码。</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h4>CSS3</h4>
+                            <span class="skill-level">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress css"></div>
+                        </div>
+                        <p class="skill-desc">精通CSS3布局技术，包括Flexbox、Grid布局，能够实现响应式设计和现代化的UI效果。</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h4>JavaScript</h4>
+                            <span class="skill-level">50%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress js"></div>
+                        </div>
+                        <p class="skill-desc">基础掌握JavaScript，能够实现简单的交互效果和DOM操作。</p>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>设计能力</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h4>响应式设计</h4>
+                            <span class="skill-level">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress responsive"></div>
+                        </div>
+                        <p class="skill-desc">能够设计适配不同屏幕尺寸的响应式网站，确保良好的移动端体验。</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h4>UI设计基础</h4>
+                            <span class="skill-level">55%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress ui"></div>
+                        </div>
+                        <p class="skill-desc">了解基本的UI设计原则，能够创建美观、易用的用户界面。</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h4>代码规范</h4>
+                            <span class="skill-level">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress code"></div>
+                        </div>
+                        <p class="skill-desc">注重代码规范和可读性，能够编写易于维护和扩展的代码。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">我的项目</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img"></div>
+                    <div class="project-content">
+                        <h3>项目名称1</h3>
+                        <p>这是一个使用HTML和CSS创建的静态网站项目，实现了响应式设计和现代化的UI效果。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">响应式设计</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">查看详情</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img"></div>
+                    <div class="project-content">
+                        <h3>项目名称2</h3>
+                        <p>这是一个个人博客网站，展示了我的学习笔记和技术文章，使用了简洁的设计风格。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">博客</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">查看详情</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img"></div>
+                    <div class="project-content">
+                        <h3>项目名称3</h3>
+                        <p>这是一个产品展示页面，使用了网格布局和卡片设计，展示了不同类别的产品信息。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">网格布局</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">查看详情</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 学习经历 -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">学习经历</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>前端开发学习</h3>
+                        <span class="timeline-date">2025年至今</span>
+                        <p>系统学习HTML、CSS、JavaScript等前端技术，掌握响应式设计和现代化UI开发。</p>
+                        <ul class="timeline-list">
+                            <li>学习HTML5语义化标签和结构化设计</li>
+                            <li>掌握CSS3布局技术（Flexbox、Grid）</li>
+                            <li>学习响应式设计和移动端适配</li>
+                            <li>基础掌握JavaScript语法和DOM操作</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Web开发基础</h3>
+                        <span class="timeline-date">2025年</span>
+                        <p>学习计算机基础和Web开发原理，了解浏览器工作机制和网络协议。</p>
+                        <ul class="timeline-list">
+                            <li>学习计算机网络基础</li>
+                            <li>了解浏览器工作原理</li>
+                            <li>学习HTTP协议</li>
+                            <li>掌握版本控制工具Git</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>编程入门</h3>
+                        <span class="timeline-date">2025年</span>
+                        <p>开始接触编程，学习计算机基础知识和编程思维。</p>
+                        <ul class="timeline-list">
+                            <li>学习计算机基础概念</li>
+                            <li>掌握基本编程思维</li>
+                            <li>学习算法基础</li>
+                            <li>了解数据结构</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>如果你想了解更多关于我的信息，或者有任何合作机会，欢迎随时联系我。</p>
+                    <div class="contact-details">
+                        <p>邮箱：m17383064459@163.com</p>
+                        <p>电话：17383064459</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">姓名</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">邮箱</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">留言</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">发送留言</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 我的个人网站. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <!-- 简单的JavaScript脚本 -->
+    <script>
+        // 滚动动画
+        function checkVisibility() {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+                const windowHeight = window.innerHeight;
+                if (rect.top <= windowHeight * 0.8 && rect.bottom >= 0) {
+                    section.classList.add('visible');
+                }
+            });
+        }
+
+        // 导航栏滚动效果
+        function handleNavbarScroll() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        }
+
+        // 表单提交处理
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            alert('留言已发送，感谢您的关注！');
+            e.target.reset();
+        }
+
+        // 初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            checkVisibility();
+            
+            // 监听滚动事件
+            window.addEventListener('scroll', () => {
+                checkVisibility();
+                handleNavbarScroll();
+            });
+
+            // 监听表单提交
+            const form = document.querySelector('.contact-form');
+            if (form) {
+                form.addEventListener('submit', handleFormSubmit);
+            }
+        });
+    </script>
+</body>
+</html>
